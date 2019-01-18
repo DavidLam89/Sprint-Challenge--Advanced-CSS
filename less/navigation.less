@@ -1,1 +1,27 @@
 // Navigation code here
+.main-navigation {
+    background-color: @nav-bg;
+
+    .nav-container {
+        justify-content: space-evenly;
+        display: flex;
+        align-items: center;
+        border-bottom: 2px solid @nav-border;
+        flex-direction: column;
+
+        .logo-heading {
+            margin: 0.8rem;
+        }
+
+        .nav {
+            display: flex;
+        
+            a {
+                text-decoration: none;
+                color: @nav-font;
+                font-size: 2rem;
+                margin: 1rem;
+            }
+        }
+    }
+}
