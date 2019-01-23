@@ -1,1 +1,22 @@
 // Mixins Here
+.my-btn(@text, @background) {
+    border-radius: 0.3rem;
+    color: @text;
+    background-color: @background;
+    padding: 0.8rem;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1.2rem;
+} 
+
+.centered-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
